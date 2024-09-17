@@ -1,0 +1,83 @@
+{
+  "fileName": "supertokens-example-invoice.pdf",
+  "data": {
+    "invoice": {
+      "name": "INVOICE",
+      "header": [
+        {
+          "label": "number",
+          "value": "20240917-136"
+        },
+        {
+          "label": "issue date",
+          "value": "17.09.2024"
+        }
+      ],
+      "currency": "$",
+      "customer": [
+        {
+          "label": "To",
+          "value": [
+            "SuperTokens",
+            "Someplace Street"
+          ]
+        },
+        {
+          "label": "Customer ID",
+          "value": "123456789"
+        }
+      ],
+      "seller": [
+        {
+          "label": "From",
+          "value": [
+            "YOUR NAME",
+            "YOUR ADDRESS"
+          ]
+        },
+        {
+          "label": "RELEVANT REGISTRATION NUMBER",
+          "value": "YOUR REGISTRATION NUMBER"
+        },
+        {
+          "label": "Bank Account",
+          "value": "YOUR BANK ACCOUNT"
+        }
+      ],
+      "details": {
+        "header": [
+          {
+            "value": "Description"
+          },
+          {
+            "value": "Quantity"
+          },
+          {
+            "value": "Total"
+          }
+        ],
+        "parts": [
+          [
+            {
+              "value": "august 2024"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": "200",
+              "price": true
+            }
+          ]
+        ],
+        "total": [
+          {
+            "label": "Total",
+            "value": "200.00",
+            "price": true
+          }
+        ]
+      }
+    }
+  }
+}

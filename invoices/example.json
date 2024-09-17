@@ -1,0 +1,77 @@
+{
+  "fileName": "example-invoice.pdf",
+  "data": {
+    "invoice": {
+      "name": "Invoice",
+      "header": [
+        {
+          "label": "number",
+          "value": "240809/01"
+        },
+        {
+          "label": "issue date",
+          "value": "24/08/09"
+        }
+      ],
+      "currency": "$",
+      "customer": [
+        {
+          "label": "To",
+          "value": ["Legal Entity Name", "Address"]
+        },
+        {
+          "label": "Customer ID",
+          "value": "1234567890"
+        }
+      ],
+      "seller": [
+        {
+          "label": "From",
+          "value": ["YOUR NAME", "YOUR ADDRESS"]
+        },
+        {
+          "label": "RELEVANT REGISTRATION NUMBER",
+          "value": "YOUR REGISTRATION NUMBER"
+        },
+        {
+          "label": "Bank Account",
+          "value": "YOUR BANK ACCOUNT"
+        }
+      ],
+      "details": {
+        "header": [
+          {
+            "value": "Description"
+          },
+          {
+            "value": "Quantity"
+          },
+          {
+            "value": "Total"
+          }
+        ],
+        "parts": [
+          [
+            {
+              "value": "ITEM 1"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": "100",
+              "price": true
+            }
+          ]
+        ],
+        "total": [
+          {
+            "label": "Total",
+            "value": "100",
+            "price": true
+          }
+        ]
+      }
+    }
+  }
+}
